@@ -1,0 +1,862 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1040px;
+    display: block;
+    margin: 0px auto;
+    height: auto;
+
+}
+
+#Navbox1 {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(145, 139, 139, 0.129);
+    position: relative;
+
+}
+
+.Nav-child1 {
+    width: 80px;
+    height: 60px;
+    top: 5px;
+    /* background-image: url(./images/Olx\ image.jpg); */
+    background-image: url(./images/22_OLX-512.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    position: absolute;
+
+
+}
+
+.inputbox {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 120px;
+    top: 15px;
+
+}
+
+.inputbox:hover {
+    border: 3px solid orange;
+
+}
+
+.inputSecondbox {
+    position: absolute;
+    left: 410px;
+    top: 15px;
+    width: 605px;
+    height: 40px;
+
+}
+
+.inputSecondbox:hover {
+    border: 3px solid orange;
+
+}
+
+.serchbox {
+    width: 65px;
+    height: 38px;
+    background-color: rgb(2, 9, 38);
+    position: absolute;
+    left: 67%;
+    top: 15.5px;
+}
+
+.btnSearch1 {
+    width: 65px;
+    height: 38px;
+    background-color: rgb(2, 9, 38);
+    font-size: 20px;
+    left: 67%;
+    top: 15.5px;
+
+}
+
+#dropdownMenuButton {
+    position: absolute;
+    left: 72%;
+    top: 15px;
+    /* background-color: white; */
+    background-color: rgba(145, 139, 139, 0.129);
+    color: black;
+    width: 150px;
+    border: none;
+}
+
+.btnchat1 {
+    position: absolute;
+    left: 83%;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 25px;
+
+}
+
+.btnchat2 {
+    position: absolute;
+    left: 85%;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 25px;
+
+}
+
+#dropdownMenuButton2 {
+    position: absolute;
+    left: 88%;
+    top: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    background-image: url(./images/hamza-nouasria-WMDVjvLE8ls-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btnSell {
+    position: absolute;
+    width: 90px;
+    left: 91%;
+    top: 15px;
+    font-size: 18px;
+    padding: 3px;
+    color: black;
+    border-radius: 50px;
+    border: 5px solid blue;
+    border-left-color: yellow;
+    border-right-color: rgb(0, 238, 255);
+    border-bottom-color: rgb(255, 247, 0);
+
+    background-color: white;
+
+
+}
+
+.btnSell:hover {
+    border: 5px solid rgb(200, 0, 255);
+    border-left-color: rgb(255, 140, 0);
+    border-right-color: rgb(255, 0, 157);
+    border-bottom-color: rgb(255, 247, 0);
+
+}
+
+.ancar {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+/* #dorp{
+   margin-left: 80PX;
+} */
+
+
+
+.small-nav-box {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 8px 5px rgba(208, 210, 210, 0.174);
+    position: relative;
+    border-bottom: 1px solid rgba(216, 206, 206, 0.641);
+
+}
+
+#dropdownMenuButton3 {
+    position: absolute;
+    top: 5px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    left: 72px;
+}
+
+#dropdownMenuButton3:hover {
+    border: 2px solid orange;
+
+}
+
+.categories-iteam1 {
+    float: right;
+    position: absolute;
+    left: 89%;
+    text-decoration: none;
+    top: 8px;
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam1:hover {
+    color: orange;
+}
+
+.categories-iteam2 {
+    float: right;
+    position: absolute;
+    left: 83%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam2:hover {
+    color: orange;
+}
+
+.categories-iteam3 {
+    float: right;
+    position: absolute;
+    left: 75%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam3:hover {
+    color: orange;
+}
+
+.categories-iteam4 {
+    float: right;
+    position: absolute;
+    left: 68%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam4:hover {
+    color: orange;
+}
+
+.categories-iteam5 {
+    float: right;
+    position: absolute;
+    left: 62.5%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam5:hover {
+    color: orange;
+}
+
+.categories-iteam6 {
+    float: right;
+    position: absolute;
+    left: 57%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam6:hover {
+    color: orange;
+}
+
+.categories-iteam7 {
+    float: right;
+    position: absolute;
+    left: 53%;
+    text-decoration: none;
+    top: 8px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.categories-iteam7:hover {
+    color: orange;
+}
+
+/* hero-section-css */
+
+.hero-section {
+    width: 70%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+    position: absolute;
+    top: 7px;
+    /* margin-right: 30px; */
+    left: 190px;
+
+}
+
+
+.div {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.638);
+}
+
+/* <!-- hero-section-end-css --> */
+
+/* secondbox3-end */
+
+.secondbox3 {
+    position: absolute;
+    height: 1020px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.secondbox3-child1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 13%;
+    padding: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.21);
+}
+.secondbox3-child1:hover {
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+}
+
+.img-box-iteam {
+    width: 100%;
+    height: 180px;
+   
+}
+
+
+.Rate1 {
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.discrube {
+    font-size: 13px;
+}
+
+#moreInfobtn{
+    position: absolute;
+    margin-top: 0.5px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: orange;
+    /* background-color: #043b41; */
+    border-color: rgba(0, 0, 0, 0.437);
+    
+
+}
+
+.secondbox3-child2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 244, 255, 0.871);
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 34%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+
+}
+
+.secondbox3-child2:hover {
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 244, 255, 0.762);
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 55%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+
+.secondbox3-child3:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child4 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 55%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+
+.secondbox3-child4:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child5 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 34%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+.secondbox3-child5:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child6 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 13%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+.secondbox3-child6:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child7 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 43.5%;
+    margin-left: 13%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+.secondbox3-child7:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child8 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 43.5%;
+    margin-left: 34%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+.secondbox3-child8:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+
+}
+
+.secondbox3-child9 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 244, 255);
+    position: absolute;
+    display: inline-block;
+    margin-top: 43.5%;
+    margin-left: 55%;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    padding: 10px;
+}
+.secondbox3-child9:hover{
+    box-shadow: 12px 12px 2px 1px rgba(77, 77, 89, 0.2);
+}
+
+.btn6 {
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 40%;
+    padding: 5px 13px;
+    background-color: white;
+    border: 2px solid rgb(8, 73, 69);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.btn6:hover {
+    border: 5px solid rgb(8, 73, 69);
+    font-size: 18px;
+
+}
+
+
+/* secondbox3-end*/
+
+/* secondbox4-start */
+
+.secondbox4 {
+    background-color: #d6dbdd;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    margin-top: 69%;
+}
+
+.secondbox4-child {
+    background-color: #002f34;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    margin-top: 10%;
+
+}
+
+.inside-box {
+    height: 130px;
+    width: 940px;
+    background-color: #d6dbdd;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5%;
+
+
+}
+
+.box-insidebox-child {
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    background-color: #d6dbdd;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.hight-light {
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 7px;
+    margin-left: 5%;
+    position: absolute;
+    color: #002f34;
+}
+
+.link-icon-types {
+    margin-top: 22px;
+    margin-left: 4px;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types2 {
+    margin-top: 38px;
+    margin-left: 4px;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types2:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types3 {
+    margin-top: 55px;
+    margin-left: 4px;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types3:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types4 {
+    margin-top: 75px;
+    margin-left: 4px;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types4:hover {
+    color: #002f34;
+
+}
+
+.inside-box2 {
+    height: 130px;
+    width: 200px;
+    position: absolute;
+    background-color: #d6dbdd;
+    margin-left: 25%;
+    display: inline-block;
+
+}
+
+.hight-light2 {
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 7px;
+    margin-left: 26%;
+    position: absolute;
+    color: #043b41;
+}
+
+.link-icon-types5 {
+    margin-top: 25px;
+    margin-left: 26%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types5:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types6 {
+    margin-top: 42px;
+    margin-left: 26%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types6:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types7 {
+    margin-top: 61px;
+    margin-left: 26%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types7:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types8 {
+    margin-top: 81px;
+    margin-left: 26%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+
+}
+
+.link-icon-types8:hover {
+    color: #002f34;
+
+}
+
+.inside-box3 {
+    height: 130px;
+    width: 200px;
+    position: absolute;
+    background-color: #d6dbdd;
+    margin-left: 49%;
+    display: inline-block;
+
+}
+
+.inside-box4 {
+    height: 130px;
+    width: 200px;
+    position: absolute;
+    background-color: #d6dbdd;
+    margin-left: 71%;
+    display: inline-block;
+
+}
+
+.hight-light3 {
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 7px;
+    margin-left: 18%;
+    position: absolute;
+    color: #043b41;
+
+}
+
+.link-icon-types9 {
+    margin-top: 21px;
+    margin-left: 15%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types9:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types10 {
+    margin-top: 37px;
+    margin-left: 15%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types10:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types11 {
+    margin-top: 57px;
+    margin-left: 15%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types11:hover {
+    color: #002f34;
+
+}
+
+.link-icon-types12 {
+    margin-top: 77px;
+    margin-left: 15%;
+    position: absolute;
+    text-decoration: none;
+    color: #353636c8;
+}
+
+.link-icon-types12:hover {
+   
+    color: #002f34;
+
+}
+
+.inside-box5 {
+    height: 130px;
+    width: 290px;
+    position: absolute;
+    background-color: #d6dbdd;
+    margin-left: 89%;
+    display: inline-block;
+
+}
+
+.text-follow {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-left: 35%;
+    position: absolute;
+    color: #043b41;
+
+}
+
+.icons-link {
+    margin-top: 32px;
+    margin-left: 20%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.icons-link2 {
+    margin-top: 32px;
+    margin-left: 35%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.icons-link3 {
+    margin-top: 32px;
+    margin-left: 50%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.icons-link4 {
+    margin-top: 32px;
+    margin-left: 70%;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.icons-link5 {
+    width: 70px;
+    height: 63px;
+    margin-top: 55px;
+    margin-left: 15%;
+
+}
+
+.icons-link6 {
+    width: 100px;
+    height: 100px;
+    margin-top: 55px;
+    margin-left: 3%;
+
+}
+.googlemap{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: #ff0000;
+    margin-left: 110px;
+}
